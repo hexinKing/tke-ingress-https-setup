@@ -1,0 +1,2 @@
+Ingress bind clb: lb-7kn3djas, ingress-api-gemblit-com
+Ingress bind clb: lb-94sbk3jm, ingress-app-gemblit-com

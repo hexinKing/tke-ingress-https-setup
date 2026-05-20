@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: qcloud
+    kubernetes.io/ingress.existLbId: $clb
+    kubernetes.io/ingress.http-rules: '[{"host":"$host","path":"/","backend":{"serviceName":"$svc","servicePort":"$port"}}]'
+  name: $ingress_name
+  namespace: $ns
+spec:
+  rules:
+  - host: $host
+    http:
+      paths:
+      - backend:
+          service:
+            name: $svc
+            port:
+              number: $port
+        path: /
+        pathType: ImplementationSpecific

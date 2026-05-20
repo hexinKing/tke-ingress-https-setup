@@ -1,0 +1,9 @@
+.claude/
+.vscode/
+.idea/
+*.log
+*.tmp
+certificates/
+*.pem
+*.key
+*.crt
