@@ -1,2 +1,6 @@
 Ingress bind clb: lb-7kn3djas, ingress-api-gemblit-com
 Ingress bind clb: lb-94sbk3jm, ingress-app-gemblit-com
+Ingress bind clb: lb-bzq10kk0, ingress-ccb-zhizhengroup-com
+Ingress bind clb: lb-msw90dlc, ingress-api-ccb-zhizhengroup-com
+Ingress bind clb: lb-d6cvvxke, ingress-dash-gameupup-net
+Ingress bind clb: lb-iezraytb, ingress-dcc-aoes-net

@@ -7,3 +7,4 @@ certificates/
 *.pem
 *.key
 *.crt
+*.txt
