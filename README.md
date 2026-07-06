@@ -1,6 +1,6 @@
 # TKE Ingress HTTPS Setup
 
-为新域名在腾讯云 TKE 上端到端配置 HTTPS Ingress 的自动化工具集。覆盖从证书签发到 DNS 写入的完整链路。
+将腾讯云 TKE 上 HTTPS Ingress 的端到端配置流程集成到 AI Agent 中，覆盖从证书签发到 DNS 写入的完整链路。
 
 ## 解决了什么问题
 
