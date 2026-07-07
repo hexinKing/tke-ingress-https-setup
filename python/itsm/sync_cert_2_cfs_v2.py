@@ -22,7 +22,7 @@ class CertificateSync:
                 'host': '10.147.0.9',
                 'port': 3306,
                 'user': 'ops',
-                'password': '<REDACTED>',
+                'password': os.environ.get('ITSM_DB_PASSWORD', ''),
                 'name': 'ops',
                 'table': 'nginxconf_ssl'
             },

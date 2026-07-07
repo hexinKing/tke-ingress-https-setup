@@ -4,6 +4,8 @@
 *.log
 *.tmp
 certificates/
+certificate/
+shell/log/
 *.pem
 *.key
 *.crt

@@ -26,7 +26,7 @@ def main():
         db_config = {
             'host': '10.147.0.9',
             'database': 'ops',
-            'user': 'ops',
+            'user': 'hexin_rw',
             'password': db_password,
             'charset': 'utf8mb4'
         }

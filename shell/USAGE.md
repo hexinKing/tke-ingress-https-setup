@@ -166,9 +166,9 @@ shell/log/
 ```bash
 # 0. 准备凭证文件（一次性）
 cat > ~/.itsm-creds <<'EOF'
-export ITSM_DB_PASSWORD='<REDACTED>'
-export ITSM_USER='<REDACTED>'
-export ITSM_PASSWORD='<REDACTED>'
+export ITSM_DB_PASSWORD='<your-db-password>'
+export ITSM_USER='<your-itsm-username>'
+export ITSM_PASSWORD='<your-itsm-password>'
 EOF
 chmod 600 ~/.itsm-creds
 
